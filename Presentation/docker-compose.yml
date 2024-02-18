@@ -1,0 +1,18 @@
+﻿version: "3.4"
+
+services:
+  svc-identity-customer:
+    image: registry.oab.org.br/svc-identity-customer:${ImageTag}
+    container_name: svc-identity-customer
+    environment:
+      - ASPNETCORE_ENVIRONMENT=${EnvironmentName}
+    extra_hosts:
+      - "homnet.oab.org.br:192.168.1.78"
+      - "orion:192.168.1.14"
+      - "libra:192.168.0.34"
+      - "bdprod:192.168.0.6"
+      - "msg.oab.org.br:192.168.0.15"
+networks:
+  default:
+    external:
+      name: cfoab_network
