@@ -1,10 +1,10 @@
-# Gym.Api
+# Gym API
 
 Este projeto foi desenvolvido no início dos meus estudos em .NET e arquitetura de APIs. Ele tem como objetivo servir de base para aprendizado de conceitos como camadas de negócio, repositórios, validações, autenticação e boas práticas de desenvolvimento.
 
 ## Sobre o Projeto
 
-O Gym.Api é uma API RESTful para gerenciamento de usuários de uma academia, implementando autenticação, operações CRUD, validações e separação de responsabilidades em múltiplas camadas:
+O Gym API é uma API RESTful para gerenciamento de usuários de uma academia, implementando autenticação, operações CRUD, validações e separação de responsabilidades em múltiplas camadas:
 
 - **Business**: Lógica de negócio, validações e serviços
 - **Entities**: Entidades do domínio
